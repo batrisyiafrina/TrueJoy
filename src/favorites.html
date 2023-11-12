@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True Joy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<section id="header" class="header">
+<a href="#" class="logo" style="color:rgb(234, 221, 202);font-family: serif, georgia;letter-spacing: 2px;"></i>True Joy</a>
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="brands.html">Brands</a>
+    <a href="products.html">Products</a>
+</nav>
+<div class="icons">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="favorites.html" class="fas fa-heart"></a>
+</div>
+</section>
+<section class="productList">
+    <h1>My Top 5 Makeup Products</h1>
+    <br>
+    <br>
+    <form>
+        <div id="form-group">
+            <label>Name : </label>
+            <br>
+            <input id="fileName" type="text" class="form-controlName">
+        </div>
+        <br><br>
+        <div id="form-group">
+            <label>5 Favourite Makeup Products : </label>
+            <br>
+            <textarea id="fileContents" class="form-control" rows="5" placeholder="
+            1. Maybelline Face Studio Master Hi-Light Light Booster Bronzer
+            2. Revlon ColorStay Lip Liner"></textarea>
+        </div>
+    </form>
+    <div class="btncontainer">
+        <button id="btnCreate" class="btncrud">Create</button>
+        <button id="btnRead" class="btncrud">Read</button>
+        <button id="btnUpdate" class="btncrud">Update</button>
+        <button id="btnDelete" class="btncrud">Delete</button>
+    </div>
+</section>
+
+    <script src="favorites.js" defer></script>
+</body>
+</html>
+
+

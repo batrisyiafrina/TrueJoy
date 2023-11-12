@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True Joy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<section id="header" class="header">
+<a href="#" class="logo" style="color:rgb(234, 221, 202);font-family: serif, georgia;letter-spacing: 2px;"></i>True Joy</a>
+<nav class="navbar">
+    <a href="index.html" class="thispage">home</a>
+    <a href="brands.html">Brands</a>
+    <a href="products.html">Products</a>
+</nav>
+<div class="icons">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="favorites.html" class="fas fa-heart"></a>
+</div>
+</section>
+<section class="home" id="home">
+    <div class="slide active" style="background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(static/header1.jpg) no-repeat; background-size:cover;
+    background-position: center;opacity: 90%; ">
+    <div class="content">
+        <div class="searchparttext2">
+            <a href ="brands.html">Looking for a makeup brand ?</a> <!--link to direct to brands.html (has hover)-->
+        </div>
+    </div>
+    </div>
+    <div class="slide" style="background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(static/header2.jpg) no-repeat; background-size:cover;
+    background-position: center;opacity: 90%;">
+    <div class="content">
+        <div class="searchparttext2">
+            <a href = "products.html">What products are you looking for ?</a> <!--link to direct to products.html (has hover)-->
+        </div>
+    </div>
+    </div>
+    <!--click next function for looking by brands or types-->
+    <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div> 
+    <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+</section>
+<!--showcases a few brands available and can be directed to the page directly-->
+<section class="gallery" id="gallery">
+    <h1 class="heading">Our<span> Fav Brands</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img decoding="async" src="static/benefit.jpg">
+            <div class="content">
+                <h3>Benefit Cosmetics</h3>
+                <a href="benefit.html" class="btn">Products</a>
+            </div>
+        </div>
+        <div class="box">
+            <img decoding="async" src="static/maybelline.jpg">
+            <div class="content">
+                <h3>Maybelline</h3>
+                <a href="maybelline.html" class="btn">Products</a>
+            </div>
+        </div>
+        <div class="box">
+            <img decoding="async" src="static/glossier.jpg">
+            <div class="content">
+                <h3>Glossier</h3>
+                <a href="glossier.html" class="btn">Products</a>
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+</section>
+<section class="home" id="home">
+    <div class="slide active" style="background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(static/footer.jpeg) no-repeat; background-size:cover;
+    background-position: center;">
+        <div class="info">
+            <a href="https://www.harpersbazaar.com/uk/beauty/make-up-nails/a35806808/rediscovering-the-true-joy-of-make-up/" style="font-family: fantasy, copperplate;font-size: 45px;margin-left: 15px;color: rgb(225, 193, 110);">Rediscovering the true joy of make-up</a>
+            <br>
+            <p style="font-family: serif, georgia;font-weight: 300;font-size: 25px;padding-top: 50px;">As beauty standards break down, <br>
+                creativity comes to the fore - and after a bare-faced year in lockdown, <br>
+                the possibilities are thrilling</p>
+        </div>
+    </div>
+</section>
+<script src="main.js" defer data-deferred="1"></script>
+</html>

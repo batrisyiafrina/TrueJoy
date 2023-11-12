@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True Joy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<section id="header" class="header" style="background-color: rgb(110, 38, 14);">
+<a href="#" class="logo" style="color:rgb(234, 221, 202);font-family: serif, georgia;letter-spacing: 2px;"></i>True Joy</a>
+<nav class="navbar">
+    <a href="index.html">home</a>
+    <a href="brands.html">Brands</a>
+    <a href="products.html">Products</a>
+</nav>
+<div class="icons">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="favorites.html" class="fas fa-heart"></a>
+</div>
+</section>
+<section class="home" id="home">
+    <div class="slide active" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(static/glossiermain.jpeg) no-repeat; background-size:cover;
+    background-position: center;">
+        <div class="info">
+            <h1 style="font-family: fantasy, copperplate;margin-left:505px;color: rgb(110, 38, 14);">Glossier</h1>
+            <br>
+            <p style="font-size: 23px;">
+                skin first, makeup second<br>
+                - Glossier
+            </p>
+        </div>
+    </div>
+</section>
+<section class="productListspecific">
+    <form>
+        <button type="button" style="background-color: rgb(110, 38, 14);" class="btnspecific" onclick="buttonClicked()">Product List</button>
+    </form>
+    <br>
+    <div id="products-container">
+        <!--display products listing-->
+    </div>
+</section>
+
+    <script src="glossier.js" defer data-deferred="1"></script> </body>
+</html>
